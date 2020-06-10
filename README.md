@@ -1,2 +1,2 @@
-# portfolio-site
-My personal developer portfolio website
+# Matisse van Rossum: Portfolio
+My personal developer portfolio website; currently under construction!
