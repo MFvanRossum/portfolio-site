@@ -3,3 +3,18 @@
     margin: 0;
     padding: 0;
 }
+
+/* .banner {
+    max-width: 110%;
+} */
+
+body {
+    background-color: rgb(151, 151, 151);
+}
+
+header {
+    background-image: linear-gradient(to bottom, transparent, rgba(151, 151, 151)), url('pics/tracks.jpg');
+    /* background-repeat: no-repeat; */
+    max-width: 120%;
+    height: 1000px;
+}
