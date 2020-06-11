@@ -9,12 +9,12 @@
 } */
 
 body {
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(52, 68, 97);
 }
 
 header {
-    background-image: linear-gradient(to bottom, transparent, rgba(151, 151, 151)), url('pics/tracks.jpg');
-    /* background-repeat: no-repeat; */
+    background-image: linear-gradient(to bottom, transparent, rgb(52, 68, 97)), url('pics/oilwater.jpg');
+    background-repeat: no-repeat;
     max-width: 120%;
     height: 1000px;
 }
