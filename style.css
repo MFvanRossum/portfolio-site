@@ -18,3 +18,40 @@ header {
     max-width: 120%;
     height: 1000px;
 }
+
+.banner {
+    padding: 20%;
+}
+
+.big-name {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    letter-spacing: 25px;
+}
+
+.subhead {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    letter-spacing: 10px;
+}
+
+hr {
+    height: 1px;
+    margin: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logos {
+    text-align: center;
+}
+
+.fa-github, .fa-linkedin{
+    color: white;
+    font-size: 45px;
+    margin: 10px;
+}
