@@ -110,4 +110,5 @@ hr {
 
 .fa-github:hover, .fa-linkedin:hover {
     color:  rgb(64, 103, 175);
+    font-size: 46px;
 }
