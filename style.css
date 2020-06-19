@@ -158,8 +158,13 @@ hr {
     color: white;
     background-color: rgb(64, 103, 175);
     padding: 10px;
+    padding-right: 18px;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.resume:hover {
+    background: linear-gradient(rgb(64, 103, 175), rgb(59, 96, 163))
 }
 
 .fa-file {
