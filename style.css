@@ -19,6 +19,14 @@ header {
     height: 1000px;
 }
 
+.section-head {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 5%;
+    letter-spacing: 15px;
+    font-style: italic;
+}
+
 .fade-in {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
