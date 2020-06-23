@@ -187,6 +187,9 @@ hr {
 .apps {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .eight-track {
@@ -196,9 +199,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid white;
 }
 
-.txt {
+.eight-txt {
     font-family: "Righteous", cursive;
     color: white;
     background: black;
@@ -206,7 +212,7 @@ hr {
     padding: 5px;
 }
 
-.txt::before {
+.eight-txt::before {
     content: '8-Track';
     position: absolute;
     mix-blend-mode: difference;
@@ -237,11 +243,33 @@ hr {
     right: 0;
     bottom: 0;
     mix-blend-mode: color-dodge;
-    animation: dodge-area 5s linear infinite;
+    animation: dodge-area 10s linear infinite;
 }
 
 @keyframes dodge-area {
     to {
         transform: translate(50%, 50%);
     }
+}
+
+.snip-it {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(92, 65, 93);
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.snip-txt {
+    display: flex;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    text-shadow: 2px 3px white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(96, 103, 107);
 }
