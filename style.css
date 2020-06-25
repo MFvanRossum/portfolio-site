@@ -273,3 +273,60 @@ hr {
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: rgb(96, 103, 107);
 }
+
+.eight-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    width: 650px;
+    max-width: 80%;
+    height: 650px;
+    max-height: 80%;
+    padding: 20px;
+}
+
+.eight-head {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.eight-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.eight-foot {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.modal-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 103, 175);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    bottom: 10px;
+}

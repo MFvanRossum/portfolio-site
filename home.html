@@ -73,6 +73,33 @@
                 <h1 class="snip-txt">Snip-It!</h1>
             </div>
         </div>
+        <div class="eight-modal" id="eight-modal">
+            <div class="eight-head">
+                <!-- <div>8-Track</div> -->
+                <div class="neon-wrapper">
+                    <span class="eight-txt" style="font-size: 80px;">8-Track</span>
+                    <span class="gradient"></span>
+                    <span class="dodge"></span>
+                </div>
+                <i class="fas fa-times close"></i>
+            </div>
+            <hr style="margin: 20px;">
+            <div class="eight-body">
+                I consider myself somewhat of an audiophile. I listen to music while I work, when I'm driving,
+                cooking, or working out, and I find myself listening to hundreds of new albums every year, including 
+                lots of recommendations from friends and family. But I didn't have a good way to keep track of all these
+                albums other than in a notes app on my phone. This is how 8-Track was born. I wanted a simple way to search
+                artists and albums and add them to a concise list of recommendations without sacrificing aesthetic. 8-Track 
+                is built using the Django framework for Python with a simple front-end made with vanilla JavaScript. It queries
+                the Spotify API with the help of the Python wrapper "Spotipy" to return album and artist data that the user can 
+                add to their own personalized "Rec List." 
+            </div>
+            <div class="eight-foot">
+                <a href="https://music8track.herokuapp.com/" target="_blank" class="modal-button">Try It!</a>
+                <a href="https://github.com/Team-8-Track/8-track" target="_blank" class="modal-button">See the Code!</a>
+            </div>
+        </div>
+        <div id="overlay"></div>
     </div>
     
 </body>
