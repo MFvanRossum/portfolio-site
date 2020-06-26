@@ -257,6 +257,50 @@ hr {
     }
 }
 
+.eight-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    width: 650px;
+    max-width: 80%;
+    height: 650px;
+    max-height: 80%;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.eight-modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.eight-head {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eight-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.eight-foot {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
 .snip-it {
     height: 300px;
     width: 300px;
@@ -284,16 +328,15 @@ hr {
     -webkit-text-stroke-color: rgb(96, 103, 107);
 }
 
-.eight-modal {
+.snip-modal {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -50%) scale(1);
     transition: 200ms ease-in-out;
-    border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
-    background-color: black;
+    background-color: rgb(92, 65, 93);
     color: white;
     width: 650px;
     max-width: 80%;
@@ -303,15 +346,30 @@ hr {
     border: 1px solid gray;
 }
 
-.eight-modal.active {
+.snip-modal.active {
     transform: translate(-50%, -50%) scale(1);
 }
 
-.eight-head {
+.snip-head {
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.snip-body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.snip-foot {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
 }
 
 .close {
@@ -322,21 +380,6 @@ hr {
 
 .close:hover {
     cursor: pointer;
-}
-
-.eight-body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-.eight-foot {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
 }
 
 .modal-button {
