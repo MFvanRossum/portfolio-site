@@ -36,6 +36,7 @@ const closeButton = document.querySelector('.close')
 
 eightTrack.addEventListener('click', openEightModal)
 closeButton.addEventListener('click', closeModal)
+overlay.addEventListener('click', closeModal)
 
 function openEightModal() {
     eightModal.classList.add('active')
