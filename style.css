@@ -181,7 +181,10 @@ hr {
 
 .apps-container {
     margin: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    background: linear-gradient(rgb(52, 68, 97), rgb(42, 55, 78), rgb(52, 68, 97));
 }
 
 .apps {
@@ -200,7 +203,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    margin: 20px;
+    margin: 25px;
     border: 1px solid white;
 }
 
@@ -309,7 +312,7 @@ hr {
     justify-content: center;
     border-radius: 20px;
     background-color: rgb(92, 65, 93);
-    margin: 20px;
+    margin: 25px;
     border: 1px solid white;
 }
 
