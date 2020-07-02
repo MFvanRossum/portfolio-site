@@ -417,15 +417,19 @@ hr {
 .rec-container {
     background: linear-gradient( rgb(38, 35, 62), rgb(31, 28, 49));
     margin: 30px;
+    margin-top: 50px;
     padding: 30px;
     contain: content;
     border-radius: 20px;
+    height: max-content;
 }
 
 .recommendations {
     display: flex;
     overflow-x: scroll;
     flex-wrap: nowrap;
+    height: max-content;
+    justify-content: center;
 }
 
 .bubble {
@@ -446,4 +450,19 @@ hr {
     align-items: center;
     margin: 25px;
     padding: 40px;
+}
+
+.bubble:hover {
+    font-size: 0;
+}
+
+.bubble-link {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.bubble-link:hover {
+    font-size: 65px;
 }
