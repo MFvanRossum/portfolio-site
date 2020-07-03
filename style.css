@@ -155,10 +155,13 @@ hr {
 }
 
 .contact {
-    margin-left: 15%;
-    margin-top: 20px;
-    display: inline-block;
+    /* margin-left: 15%; */
+    /* margin-top: 20px; */
+    /* display: inline-block; */
     height: max-content;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
 
 .resume {
