@@ -470,3 +470,36 @@ hr {
 .bubble-link:hover {
     font-size: 65px;
 }
+
+.other-container {
+    background: linear-gradient(rgb(52, 68, 97), rgb(38, 50, 71), rgb(52, 68, 97));
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.other-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.light-arc {
+    background-image: linear-gradient(to bottom, transparent, rgb(34, 34, 36)), url('https://lightarcstudios.github.io/assets/img/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 500px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.pod-people {
+    background-image: linear-gradient(to bottom, transparent, rgb(34, 34, 36)), url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/22218301_413303072406265_9167016850214568237_o.jpg?_nc_cat=106&_nc_sid=e3f864&_nc_ohc=tZpYHqdzpzUAX8jWggD&_nc_ht=scontent-iad3-1.xx&oh=2cb763497db6d38f4b2c8fbc397b754d&oe=5F31AB46');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30%;
+    height: 500px;
+    border-radius: 15px;
+    margin: 20px;
+}
