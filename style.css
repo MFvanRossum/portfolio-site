@@ -110,13 +110,14 @@ hr {
     text-align: center;
 }
 
-.fa-github, .fa-linkedin, .fa-twitter, .fa-steam, .fa-youtube {
+.fa-github, .fa-linkedin, .fa-twitter, .fa-steam, .fa-youtube, .fa-podcast, .fa-google, .fa-spotify {
     color: white;
     font-size: 45px;
     margin: 10px;
 }
 
-.fa-github:hover, .fa-linkedin:hover, .fa-twitter:hover, .fa-steam:hover, .fa-youtube:hover {
+.fa-github:hover, .fa-linkedin:hover, .fa-twitter:hover, .fa-steam:hover, .fa-youtube:hover, .fa-podcast:hover,
+.fa-google:hover, .fa-spotify:hover {
     color:  rgb(64, 103, 175);
 }
 
@@ -502,8 +503,9 @@ hr {
     background-repeat: no-repeat;
     background-size: contain;
     width: 30%;
-    height: 500px;
+    height: max-content;
     max-height: max-content;
+    contain: content;
     border-radius: 15px;
     border: 1px solid rgb(43, 21, 44);
     margin: 20px;
@@ -512,8 +514,14 @@ hr {
 .links {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .links i {
     font-size: 35px;
+}
+
+.pod-people .links {
+    padding-left: 10%;
+    padding-right: 10%;
 }
