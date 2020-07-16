@@ -525,3 +525,15 @@ hr {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.form-container {
+    background: linear-gradient( rgb(38, 35, 62), rgb(31, 28, 49));
+    margin: 30px;
+    margin-top: 50px;
+    padding: 30px;
+    contain: content;
+    border-radius: 20px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
