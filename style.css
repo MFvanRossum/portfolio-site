@@ -544,3 +544,9 @@ hr {
     margin: 50px;
     padding: 10px;
 }
+
+.contact-form input {
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
