@@ -545,6 +545,7 @@ hr {
     padding: 10px;
     contain: content;
     max-width: 70%;
+    height: max-content;
 }
 
 .contact-form label {
@@ -556,4 +557,8 @@ hr {
     border-radius: 5px;
     position: absolute;
     right: 10%;
+}
+
+.form-message {
+    height: 300px;
 }
