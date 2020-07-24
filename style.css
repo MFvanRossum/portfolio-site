@@ -550,6 +550,7 @@ hr {
 }
 
 .contact-form label {
+    margin-bottom: 15px;
 }
 
 .contact-form input, textarea{
@@ -559,6 +560,11 @@ hr {
     position: absolute;
     right: 10%;
     contain: content;
+}
+
+.contact-form input {
+    border: none;
+    height: 20px;
 }
 
 .form-message {
