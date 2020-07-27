@@ -560,6 +560,8 @@ hr {
     position: absolute;
     right: 10%;
     contain: content;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
 }
 
 .contact-form input {
